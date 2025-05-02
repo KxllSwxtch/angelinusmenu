@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "dist"     # Папка для Vite, если ты используешь vite
+
+[dev]
+  command = "vite"
