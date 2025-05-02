@@ -25,7 +25,7 @@ export const menuData = [
 			},
 			{
 				name: 'Пельмени',
-				description: 'Говядина',
+				description: 'Говядина, баранина',
 				image:
 					'https://images.gastronom.ru/B5Cvr7OnaaxeIo6cq-hdaV9ZXZA0Fvn4r7KYvxol3Jk/pr:recipe-preview-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzI4NDA1OTE2LTM4ZDMtNDYwMC1hMjYyLTc1NzFkNjc3MDdlZi5qcGc.webp',
 			},
@@ -78,14 +78,14 @@ export const menuData = [
 			{
 				name: 'Кук-си',
 				description:
-					'Холодный суп с тянущейся лапшой, тонкими ломтями мяса (или рыбы), огурцами, яйцом и пряной острой заправкой.',
+					'Холодный суп с тянущейся лапшой, тонкими ломтиками мяса, огурцами, яйцом и пряной острой заправкой.',
 				image:
 					'https://powariha.ru/images/upload/cc0c7f8fd794542307070a8209287fcc.jpg',
 			},
 			{
 				name: 'Окрошка',
 				description:
-					'Летний суп на кефире или квасе с нарезанными свежими огурцами, картофелем, зеленью и варёным яйцом.',
+					'Летний суп на кефире с нарезанными свежими огурцами, картофелем, зеленью и варёным яйцом.',
 				image:
 					'https://static.insales-cdn.com/images/articles/1/7683/1129987/%D0%BE%D0%BA%D1%80%D0%BE%D1%88%D0%BA%D0%B0.jpg',
 			},
@@ -95,12 +95,6 @@ export const menuData = [
 					'Освежающий вариант лагмана с охлажденной лапшой и овощами.',
 				image:
 					'https://aif-s3.aif.ru/images/017/180/0e7d8f4ceabc78e223c8887e357d969a.jpg',
-			},
-			{
-				name: 'Гуирбек',
-				description: 'Традиционный осетинский мясной суп с клецками.',
-				image:
-					'https://img1.russianfood.com/dycontent/images_upl/525/big_524057.jpg',
 			},
 		],
 	},
@@ -217,7 +211,7 @@ export const menuData = [
 			{
 				name: 'Наполеон',
 				description:
-					'Фирменный шашлык из маринованной свинины и теста "Наполеон", приготовленный по особому рецепту.',
+					'Фирменный шашлык из маринованной баранины "Наполеон", приготовленный по особому рецепту.',
 				image:
 					'https://sizorder.kz/image/cache/catalog/555/001_%D0%BD%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD.jpg.792x526_q85_crop-813x1000.jpg',
 			},
