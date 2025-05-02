@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+	body {
+		font-family: 'Cormorant Garamond', serif;
+		color: #d4af37;
+	}
+
+	h2,
+	h3 {
+		font-weight: normal;
+		letter-spacing: 0.05em;
+	}
+}
+
+@layer utilities {
+	.gold-gradient {
+		background: linear-gradient(90deg, #d4af37 0%, #f4e6a9 50%, #d4af37 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.text-shadow-gold {
+		text-shadow: 0 0 1px #d4af37, 0 0 2px rgba(212, 175, 55, 0.5);
+	}
+}
