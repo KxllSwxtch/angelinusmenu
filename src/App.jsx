@@ -1,7 +1,7 @@
 import React from 'react'
 import MenuSection from './components/MenuSection'
 import { menuData } from './data/menu'
-import logoURL from './assets/logo.png'
+// import logoURL from './assets/logo.png'
 
 const App = () => {
 	return (
@@ -19,9 +19,9 @@ const App = () => {
 								Семейный ресторан
 							</p>
 						</div>
-						<div className='flex items-center justify-center mt-5	md:mt-0'>
+						{/* <div className='flex items-center justify-center mt-5	md:mt-0'>
 							<img src={logoURL} alt='logo' className='w-40 h-40 rounded-lg' />
-						</div>
+						</div> */}
 					</div>
 				</header>
 

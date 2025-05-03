@@ -28,7 +28,7 @@ export const menuData = [
 			},
 			{
 				name: 'Пельмени',
-				description: 'Говядина, баранина',
+				description: 'Говядина, свинина',
 				image:
 					'https://images.gastronom.ru/B5Cvr7OnaaxeIo6cq-hdaV9ZXZA0Fvn4r7KYvxol3Jk/pr:recipe-preview-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzI4NDA1OTE2LTM4ZDMtNDYwMC1hMjYyLTc1NzFkNjc3MDdlZi5qcGc.webp',
 			},
@@ -227,7 +227,7 @@ export const menuData = [
 			{
 				name: 'Рулет говяжий',
 				description:
-					'Говяжий рулет с начинкой из овощей и зелени, приготовленный на мангале.',
+					'Сочный говяжий рулет с ароматной начинкой из свежих овощей и зелени, запеченный на мангале до золотистой корочки.',
 				image:
 					'https://taganskaya.barakat24.ru/wp-content/uploads/2021/07/10674-1.jpg',
 			},
