@@ -27,7 +27,7 @@ export const menuData = [
 					'https://images.gastronom.ru/wLHELAFU6hPwrjPlu5dvpHb8KsoWY2r5AyvWvlSKORw/pr:recipe-preview-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzUwMWFiMjUxLTYwNWMtNDM3NS04MmM4LTk2MjNjMzM0NzJjYi5qcGc.webp',
 			},
 			{
-				name: '	',
+				name: 'Пельмени',
 				description: 'Говядина, баранина',
 				image:
 					'https://images.gastronom.ru/B5Cvr7OnaaxeIo6cq-hdaV9ZXZA0Fvn4r7KYvxol3Jk/pr:recipe-preview-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzI4NDA1OTE2LTM4ZDMtNDYwMC1hMjYyLTc1NzFkNjc3MDdlZi5qcGc.webp',
@@ -271,6 +271,87 @@ export const menuData = [
 				image:
 					'https://karfood.ru/wp-content/uploads/2021/06/uxhfnvydnpk-2.jpg',
 				prices: { standard: 1500 },
+			},
+		],
+	},
+
+	{
+		category: 'Бар',
+		items: [
+			{
+				name: 'Водка',
+				description: 'Бутылка',
+				prices: { standard: 25000 },
+			},
+			{
+				name: 'Коньяк',
+				description: 'Бутылка',
+				prices: { standard: 30000 },
+			},
+			{
+				name: 'Вино',
+				description: 'Бутылка',
+				prices: { standard: 30000 },
+			},
+			{
+				name: 'Виски',
+				description: 'Бутылка',
+				prices: { standard: 70000 },
+			},
+			{
+				name: 'Соджик',
+				description: 'Корейская рисовая водка',
+				prices: { standard: 4000 },
+			},
+			{
+				name: 'Пиво',
+				description: 'Кружка пенного',
+				image:
+					'https://avatars.mds.yandex.net/get-altay/1923723/2a0000016d4c0af42e82e74febc6d5f64c43/XXXL',
+				prices: { standard: 5000 },
+			},
+			{
+				name: 'Сок',
+				description: 'Свежевыжатый',
+				prices: { standard: 7000 },
+			},
+			{
+				name: 'Кола (М)',
+				description: 'Маленькая',
+				prices: { standard: 2000 },
+			},
+			{
+				name: 'Кола (Б)',
+				description: 'Большая',
+				prices: { standard: 6000 },
+			},
+			{
+				name: 'Компот',
+				description: 'Домашний',
+				prices: { standard: 6000 },
+			},
+		],
+	},
+	{
+		category: 'Бар (На разлив)',
+		items: [
+			{
+				name: 'Водка',
+				description: '',
+				prices: { small: 3000, large: 5000 },
+				portions: { small: '50мл', large: '100мл' },
+			},
+			{
+				name: 'Коньяк',
+				description: '',
+				prices: { small: 5000, large: 8000 },
+				portions: { small: '50мл', large: '100мл' },
+			},
+			{
+				name: 'Виски',
+				description: '',
+				prices: { small: 6000, large: 10000 },
+				portions: { small: '50мл', large: '100мл' },
 			},
 		],
 	},
