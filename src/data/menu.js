@@ -62,7 +62,7 @@ export const menuData = [
 				prices: { standard: 12000 },
 			},
 			{
-				name: 'Лагман',
+				name: 'Лагман домашний',
 				description:
 					'Суп с тянущейся лапшой, сочными кусочками говядины, болгарским перцем, томатами и ароматными специями.',
 				image:
@@ -87,7 +87,7 @@ export const menuData = [
 					'Холодный суп с тянущейся лапшой, тонкими ломтиками мяса, огурцами, яйцом и пряной острой заправкой.',
 				image:
 					'https://powariha.ru/images/upload/cc0c7f8fd794542307070a8209287fcc.jpg',
-				prices: { small: '8000', large: '12000' },
+				prices: { small: '9000', large: '12000' },
 			},
 			{
 				name: 'Окрошка',
@@ -238,36 +238,33 @@ export const menuData = [
 		items: [
 			{
 				name: 'Пюре',
-				description:
-					'Картофельные дольки с ароматными специями, запеченные в духовке.',
+				description: '',
 				image:
 					'https://cdn.food.ru/unsigned/fit/1080/810/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDIwMi80VmozNXouanBlZw.webp',
 			},
 			{
 				name: 'Рис',
-				description: 'Рассыпчатый белый рис, приготовленный на пару.',
+				description: '',
 				image:
 					'https://eda.ru/images/RecipePhoto/930x622/ris-na-paru_26944_photo_25219.webp',
 				prices: { standard: 3000 },
 			},
 			{
 				name: 'Фри',
-				description: 'Хрустящий картофель, обжаренный во фритюре.',
+				description: '',
 				image: 'https://www.patee.ru/r/x6/15/8b/e2/960m.jpg',
 				prices: { standard: 5000 },
 			},
 
 			{
 				name: 'Картофель по-деревенски',
-				description:
-					'Запеченные ломтики картофеля с ароматными травами и специями.',
+				description: 'З',
 				image: 'https://www.patee.ru/r/x6/13/80/3f/960m.jpg',
 				prices: { standard: 6000 },
 			},
 			{
 				name: 'Лепёшка',
-				description:
-					'Традиционная мягкая лепёшка, выпеченная в тандыре, с хрустящей корочкой и нежным мякишем.',
+				description: '',
 				image:
 					'https://karfood.ru/wp-content/uploads/2021/06/uxhfnvydnpk-2.jpg',
 				prices: { standard: 1500 },

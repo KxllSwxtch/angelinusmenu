@@ -41,7 +41,7 @@ const App = () => {
 						경기 안산시 단원구 화랑로 32 6층
 					</address>
 					<p className='mt-4 text-xs text-gold/50'>
-						Телефон: +7 (123) 456-78-90
+						Телефон: +82 (10) 8184 3139
 					</p>
 				</footer>
 			</div>
