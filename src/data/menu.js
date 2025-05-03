@@ -8,13 +8,16 @@ export const menuData = [
 				description:
 					'Ароматный суп на овощном бульоне с красной чечевицей, морковью, луком, чесноком и томатами.',
 				image: 'https://www.vsegdavkusno.ru/assets/images/recipes/1565/1.jpg',
+				prices: { standard: 13000 },
 			},
+
 			{
 				name: 'Грибной',
 				description:
 					'Нежный суп на сливочной основе с шампиньонами, картофелем, луком и морковью.',
 				image:
 					'https://cdn.lifehacker.ru/wp-content/uploads/2021/03/7_1616417613-e1616417711541.jpg',
+				prices: { standard: 13000 },
 			},
 			{
 				name: 'Крем-суп с креветками',
@@ -24,7 +27,7 @@ export const menuData = [
 					'https://images.gastronom.ru/wLHELAFU6hPwrjPlu5dvpHb8KsoWY2r5AyvWvlSKORw/pr:recipe-preview-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzUwMWFiMjUxLTYwNWMtNDM3NS04MmM4LTk2MjNjMzM0NzJjYi5qcGc.webp',
 			},
 			{
-				name: 'Пельмени',
+				name: '	',
 				description: 'Говядина, баранина',
 				image:
 					'https://images.gastronom.ru/B5Cvr7OnaaxeIo6cq-hdaV9ZXZA0Fvn4r7KYvxol3Jk/pr:recipe-preview-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzI4NDA1OTE2LTM4ZDMtNDYwMC1hMjYyLTc1NzFkNjc3MDdlZi5qcGc.webp',
@@ -34,6 +37,7 @@ export const menuData = [
 				description:
 					'Классический борщ на мясном бульоне со свёклой, капустой, картофелем и томатами.',
 				image: 'https://primebeef.ru/images/cms/data/3-501.jpg',
+				prices: { standard: 15000 },
 			},
 			{
 				name: 'Солянка',
@@ -41,6 +45,7 @@ export const menuData = [
 					'Густой, наваристый суп с копчёностями, колбасками, говядиной и солёными огурцами.',
 				image:
 					'https://blog.kolobok.com.mx/wp-content/uploads/2017/05/solyanka-2-1024x576.jpg',
+				prices: { standard: 13000 },
 			},
 			{
 				name: 'Кядя',
@@ -54,6 +59,7 @@ export const menuData = [
 					'Ароматный суп на бараньем бульоне с крупно нарезанными овощами: морковью, картофелем, луком и болгарским перцем.',
 				image:
 					'https://cdn1.ozonusercontent.com/s3/club-storage/images/article_image_1632x1000/696/1ef19980-8e08-45b7-aff2-5292b5797aa9.jpeg',
+				prices: { standard: 12000 },
 			},
 			{
 				name: 'Лагман',
@@ -76,11 +82,12 @@ export const menuData = [
 				image: 'https://korean-house.kz/wp-content/uploads/2020/05/puktyaj.jpg',
 			},
 			{
-				name: 'Кук-си',
+				name: 'Кукси',
 				description:
 					'Холодный суп с тянущейся лапшой, тонкими ломтиками мяса, огурцами, яйцом и пряной острой заправкой.',
 				image:
 					'https://powariha.ru/images/upload/cc0c7f8fd794542307070a8209287fcc.jpg',
+				prices: { small: '8000', large: '12000' },
 			},
 			{
 				name: 'Окрошка',
@@ -119,12 +126,14 @@ export const menuData = [
 					'Мясной ассорти из колбас, сыров, орехов и сухофруктов, приготовленный по традиционному рецепту.',
 				image:
 					'https://www.refro.ru/upload/iblock/0e4/g6jixvdrmeirirdqemmhs7kndhpstrjk.jpg',
+				prices: { standard: 70000 },
 			},
 			{
 				name: 'Фруктовое',
 				description:
 					'Фруктовое ассорти из сухофруктов, приготовленный по традиционному рецепту.',
 				image: 'https://i.ytimg.com/vi/8pxPNBz2rRc/maxresdefault.jpg',
+				prices: { standard: 35000 },
 			},
 		],
 	},
@@ -239,17 +248,21 @@ export const menuData = [
 				description: 'Рассыпчатый белый рис, приготовленный на пару.',
 				image:
 					'https://eda.ru/images/RecipePhoto/930x622/ris-na-paru_26944_photo_25219.webp',
+				prices: { standard: 3000 },
 			},
 			{
 				name: 'Фри',
 				description: 'Хрустящий картофель, обжаренный во фритюре.',
 				image: 'https://www.patee.ru/r/x6/15/8b/e2/960m.jpg',
+				prices: { standard: 5000 },
 			},
+
 			{
 				name: 'Картофель по-деревенски',
 				description:
 					'Запеченные ломтики картофеля с ароматными травами и специями.',
 				image: 'https://www.patee.ru/r/x6/13/80/3f/960m.jpg',
+				prices: { standard: 6000 },
 			},
 			{
 				name: 'Лепёшка',
@@ -257,6 +270,7 @@ export const menuData = [
 					'Традиционная мягкая лепёшка, выпеченная в тандыре, с хрустящей корочкой и нежным мякишем.',
 				image:
 					'https://karfood.ru/wp-content/uploads/2021/06/uxhfnvydnpk-2.jpg',
+				prices: { standard: 1500 },
 			},
 		],
 	},

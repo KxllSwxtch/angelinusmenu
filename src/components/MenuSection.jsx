@@ -1,6 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import { menuData } from '../data/menu'
 
+// Функция форматирования цены
+const formatPrice = (price) => {
+	if (!price) return ''
+	// Преобразуем в строку, если это число
+	const priceStr = typeof price === 'number' ? price.toString() : price
+
+	// Добавляем пробел между тысячами
+	return priceStr.replace(/\B(?=(\d{3})+(?!\d))/g, ' ') + ' ₩'
+}
+
 // Компонент мини-навигации
 const MenuNavigation = ({ activeCategory, onCategoryClick }) => {
 	return (
@@ -73,6 +83,38 @@ const MenuSection = ({ category, items }) => {
 		}
 	}
 
+	// Компонент для отображения цен блюда
+	const PriceDisplay = ({ prices }) => {
+		if (!prices) return null
+
+		if (prices.standard) {
+			return (
+				<div className='mt-2 text-gold-light/90 font-medium'>
+					{formatPrice(prices.standard)}
+				</div>
+			)
+		}
+
+		return (
+			<div className='mt-2 text-gold-light/90'>
+				{prices.small && (
+					<div className='flex items-baseline justify-between w-full'>
+						<span className='text-sm text-gold/90 mr-2'>Маленькая порция</span>
+						<div className='flex-grow border-b border-dotted border-gold/40 mx-2 mb-1'></div>
+						<span className='font-medium'>{formatPrice(prices.small)}</span>
+					</div>
+				)}
+				{prices.large && (
+					<div className='flex items-baseline justify-between w-full mt-2'>
+						<span className='text-sm text-gold/90 mr-2'>Большая порция</span>
+						<div className='flex-grow border-b border-dotted border-gold/40 mx-2 mb-1'></div>
+						<span className='font-medium'>{formatPrice(prices.large)}</span>
+					</div>
+				)}
+			</div>
+		)
+	}
+
 	return (
 		<>
 			{category === menuData[0].category && (
@@ -116,6 +158,7 @@ const MenuSection = ({ category, items }) => {
 								<p className='text-sm text-[#e4d6a7] leading-relaxed max-w-md'>
 									{item.description}
 								</p>
+								<PriceDisplay prices={item.prices} />
 							</div>
 						</div>
 					))}
