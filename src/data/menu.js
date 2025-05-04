@@ -130,8 +130,7 @@ export const menuData = [
 			},
 			{
 				name: 'Фруктовое',
-				description:
-					'Фруктовое ассорти из сухофруктов, приготовленный по традиционному рецепту.',
+				description: '',
 				image: 'https://i.ytimg.com/vi/8pxPNBz2rRc/maxresdefault.jpg',
 				prices: { standard: 35000 },
 			},
