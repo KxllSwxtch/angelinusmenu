@@ -109,13 +109,6 @@ export const menuData = [
         image: "https://cdn.nur.kz/images/1200x675/6aaa1f182150de3d.jpeg",
         prices: { standard: 12000 },
       },
-      {
-        name: "Лагман холодный",
-        description:
-          "Освежающий вариант лагмана с охлажденной лапшой и овощами.",
-        image:
-          "https://aif-s3.aif.ru/images/017/180/0e7d8f4ceabc78e223c8887e357d969a.jpg",
-      },
     ],
   },
   {
@@ -141,7 +134,7 @@ export const menuData = [
           "Сочный микс из обжаренной свиной шейки, нежной курочки и ароматного говяжьего языка, дополненный пряной краковской колбаской. Гармонию вкуса подчеркивает хрустящая пекинская капуста и румяные ломтики картофеля.",
         image:
           "https://www.refro.ru/upload/iblock/0e4/g6jixvdrmeirirdqemmhs7kndhpstrjk.jpg",
-        prices: { standard: 70000 },
+        prices: { standard: 35000 },
       },
       {
         name: "Фруктовое",
