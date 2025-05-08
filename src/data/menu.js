@@ -70,7 +70,7 @@ export const menuData = [
           "Суп с тянущейся лапшой, сочными кусочками говядины, болгарским перцем, томатами и ароматными специями.",
         image:
           "https://i.obozrevatel.com/food/recipemain/2020/2/19/1579331601snimok-jekrana-2020-01-18-v-91129.jpg?size=636x424",
-        prices: { small: 10000 },
+        prices: { standard: 10000 },
       },
       {
         name: "Лапша по домашнему",
@@ -78,7 +78,7 @@ export const menuData = [
           "Куриный бульон, приготовленный с любовью, домашняя лапша, сочные кусочки курицы, морковь и лук.",
         image:
           "https://gipfel.ru/upload/iblock/03d/x3vt0mr2k169m6k3oksv7xhsn2hhjf0y.jpg",
-        prices: { small: 8000 },
+        prices: { standard: 8000 },
       },
       {
         name: "Пуктяй",
@@ -273,7 +273,7 @@ export const menuData = [
 
       {
         name: "Картофель по-деревенски",
-        description: "З",
+        description: "",
         image: "https://www.patee.ru/r/x6/13/80/3f/960m.jpg",
         prices: { standard: 6000 },
       },
