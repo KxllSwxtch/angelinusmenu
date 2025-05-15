@@ -206,7 +206,7 @@ const MenuSection = ({ category, items }) => {
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="w-60 h-50 object-contain rounded-sm"
+                    className="w-60 h-50 object-contain rounded-md"
                     onError={(e) => {
                       e.target.style.display = "none"
                     }}
